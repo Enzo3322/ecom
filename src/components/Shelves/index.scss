@@ -1,0 +1,37 @@
+.shelve-title {
+	margin-left: 20px;
+}
+
+.product-container {
+	padding: 10px;
+	.product-img {
+		margin-bottom: 10px;
+		max-width: 300px;
+	}
+	.product-name {
+		p {
+			white-space: nowrap;
+			max-width: 180px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+	.product-price {
+		font-weight: 500;
+		margin-bottom: 25px;
+		.list-price {
+			text-decoration-line: line-through;
+			margin-right: 10px;
+			color: #bbb;
+		}
+	}
+	.buy-button {
+		width: 95%;
+		border: 0;
+		background-color: rgb(51, 189, 113);
+		padding: 15px;
+		color: #fff;
+		font-size: 16px;
+		font-weight: 600;
+	}
+}
