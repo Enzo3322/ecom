@@ -1,0 +1,24 @@
+.category-container {
+	height: 250px;
+	.category-item {
+		display: flex;
+		height: 200px;
+	}
+	.category-content {
+		width: 150px;
+		height: 150px;
+		border-radius: 100px;
+		background-color: rgb(214, 214, 214);
+		padding: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		.category-img {
+			max-width: 100px;
+			max-height: 100px;
+		}
+		.category-name {
+		}
+	}
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.scss';
+import { BsFillCartFill } from 'react-icons/bs';
 
 function Navbar() {
 	return (
@@ -10,12 +11,13 @@ function Navbar() {
 					<ul>
 						<li>Home</li>
 						<li>Nossas Lojas</li>
-						<li>Ajuda</li>
-						<li></li>
+						<li>FAQ</li>
 					</ul>
 				</div>
 				<div className="nav-actions">
-					<button>Botão carrinho</button>
+					<button>
+						<BsFillCartFill />
+					</button>
 				</div>
 			</div>
 		</div>

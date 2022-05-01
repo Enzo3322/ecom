@@ -8,6 +8,7 @@
 		display: flex;
 		justify-content: space-between;
 		width: 100%;
+		align-items: center;
 		max-width: 1120px;
 	}
 	.nav-logo {
@@ -15,11 +16,34 @@
 	.nav-list {
 		ul {
 			display: flex;
+			height: 40px;
+			align-items: center;
 			li {
+				margin: 0 20px;
 				list-style: none;
+				font-weight: 700;
+				color: #444;
+				cursor: pointer;
+				transition: ease 0.1s all;
+				&:hover {
+					animation: ease 0.1s all;
+					margin-bottom: 2px;
+					text-decoration: underline;
+					line-height: 30px;
+				}
 			}
 		}
 	}
 	.nav-actions {
+		button {
+			border: 0;
+			width: 50px;
+			height: 50px;
+			cursor: pointer;
+			svg {
+				width: 25px;
+				height: 25px;
+			}
+		}
 	}
 }

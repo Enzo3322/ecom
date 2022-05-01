@@ -20,7 +20,7 @@ function Shelve({ data }) {
 	};
 	return (
 		<div>
-			<h3 className="shelve-title">Promoções da semana</h3>
+			<h3 className="shelve-title">{data.shelveTitle}</h3>
 			<Swiper
 				pagination={{
 					dynamicBullets: true,
@@ -32,7 +32,7 @@ function Shelve({ data }) {
 				modules={[Pagination, Navigation]}
 				className=""
 			>
-				{data.map((product, index) => (
+				{data.products.map((product, index) => (
 					<SwiperSlide key={index}>
 						<div className="product-container">
 							<div className="product-img">
